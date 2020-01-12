@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">janaproject</string>
+    <string name="hello">Hello World, MyAndroidAppActivity!</string>
+
+    <string name="database">Data Base</string>
+    <string name="android">Android</string>
+    <string name="java">Java 1</string>
+    <string name="datastructure">Data Structure</string>
+    <string name="oop">object oriented programming</string>
+</resources>
