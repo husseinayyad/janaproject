@@ -8,91 +8,50 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select  Your course: "
-        android:textColor="#f00"
-        android:textSize="20sp"
+        android:text="Welcome"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
         android:padding="10dp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
 
         android:orientation="vertical">
-
-        <CheckBox
-            android:id="@+id/androidCheckBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:checked="false"
-            android:padding="20dp"
-            android:text="@string/android"
-            android:textColor="#44f"
+        <Button
+            android:id="@+id/viewCourses"
+            android:layout_width="match_parent"
+            android:text="View Courses"
+            android:background="@color/colorPrimary"
+            android:padding="20px"
+            android:textColor="@color/colorWhite"
             android:textSize="15sp"
-            android:textStyle="bold|italic" />
-
-        <CheckBox
-            android:id="@+id/javaCheckBox"
-            android:layout_width="wrap_content"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:checked="false"
-            android:padding="20dp"
-            android:text="@string/java"
-            android:textColor="#f44"
+           ></Button>
+        <Button
+            android:id="@+id/myCourses"
+            android:layout_width="match_parent"
+            android:text="My  Courses"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:background="@color/colorPrimary"
+            android:padding="20px"
+            android:layout_marginTop="80px"
+            android:textColor="@color/colorWhite"
             android:textSize="15sp"
-            android:textStyle="bold|italic" />
-
-        <CheckBox
-            android:id="@+id/databCheckBox"
-            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:checked="false"
-            android:padding="20dp"
-            android:text="@string/database"
-            android:textColor="#444"
-            android:textSize="15sp"
-            android:textStyle="bold|italic" />
+            ></Button>
 
-        <CheckBox
-            android:id="@+id/datasCheckBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:checked="false"
-            android:padding="20dp"
-            android:text="@string/datastructure"
-            android:textColor="#888"
-            android:textSize="15sp"
-            android:textStyle="bold|italic" />
-
-        <CheckBox
-            android:id="@+id/oopCheckBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:checked="false"
-            android:padding="20dp"
-            android:text="@string/oop"
-            android:textColor="#101010"
-            android:textSize="15sp"
-            android:textStyle="bold|italic" />
     </LinearLayout>
-    <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:text="Add  Course"
-        android:textColor="#101010"
-        android:layout_alignParentBottom="true"
-        android:textSize="15sp"
-        android:layout_margin="15dp"
-        android:textAlignment="center"
-        android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content"
-        ></Button>
+
 
 </RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:id="@+id/cardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:id="@+id/ly1"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@color/colorPrimaryDark"
+            android:scaleType="fitXY"
+            android:id="@+id/img"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:id="@+id/name"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="EX"
+            android:textFontWeight="900"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:id="@+id/about"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="about"
+            android:textFontWeight="900"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_height="wrap_content">
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:id="@+id/linkTitle"-->
+<!--                android:textColor="@color/colorPrimaryDark"-->
+<!--                android:text="CourseLink: "-->
+<!--                android:textFontWeight="900"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:textStyle="bold"/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/link"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="link"
+                android:textFontWeight="900"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:text="Add Course"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:background="@color/colorPrimary"
+            android:padding="20px"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="80px"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            ></Button>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+

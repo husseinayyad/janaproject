@@ -24,6 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private TextView register;
     private FirebaseAuth mAuth;
+    static String userId ="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
     private void loginUserAccount() {
         progressBar.setVisibility(View.VISIBLE);
 
-        String email, password;
+    final String email, password;
         email = emailTV.getText().toString();
         password = passwordTV.getText().toString();
 
@@ -70,6 +71,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "Login successful!", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
+                            userId =mAuth.getUid();
 
                            Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                             startActivity(intent);
