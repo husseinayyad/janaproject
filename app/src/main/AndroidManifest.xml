@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fuais.janaproject">
+    package="com.mid.task">
 
     <application
         android:allowBackup="true"
@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:name="androidx.multidex.MultiDexApplication"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.mid.task.HomeActivity"></activity>
+        <activity android:name="com.mid.task.RegistrationActivity" />
+        <activity android:name="com.mid.task.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

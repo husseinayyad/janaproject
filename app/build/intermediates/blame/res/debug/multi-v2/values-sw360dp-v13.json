@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FuAIS 3\\Desktop\\janaproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "E:\\Flutter Projects\\janaproject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\FuAIS 3\\.gradle\\caches\\transforms-2\\files-2.1\\a366d6a02b9395cb26170d7cf1c71b70\\jetified-firebase-ui-auth-3.3.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\husse\\.gradle\\caches\\transforms-2\\files-2.1\\a4af2f29115c7283ec0458431bc14f01\\jetified-firebase-ui-auth-3.3.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

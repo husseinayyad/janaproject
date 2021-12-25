@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fuais.janaproject"
+    package="com.mid.task"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -26,9 +26,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.fuais.janaproject.HomeActivity" />
-        <activity android:name="com.fuais.janaproject.RegistrationActivity" />
-        <activity android:name="com.fuais.janaproject.LoginActivity" >
+        <activity android:name="com.mid.task.HomeActivity" />
+        <activity android:name="com.mid.task.RegistrationActivity" />
+        <activity android:name="com.mid.task.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -106,7 +106,7 @@
 
         <provider
             android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-            android:authorities="com.fuais.janaproject.authuiinitprovider"
+            android:authorities="com.mid.task.authuiinitprovider"
             android:exported="false"
             android:initOrder="90" />
 
@@ -166,7 +166,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.fuais.janaproject.firebaseinitprovider"
+            android:authorities="com.mid.task.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -197,7 +197,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.fuais.janaproject.lifecycle-process"
+            android:authorities="com.mid.task.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

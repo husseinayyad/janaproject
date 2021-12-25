@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "285135557567",
-    "firebase_url": "https://janaproject-6800e.firebaseio.com",
-    "project_id": "janaproject-6800e",
-    "storage_bucket": "janaproject-6800e.appspot.com"
+    "project_number": "501537938207",
+    "firebase_url": "https://mid-task-9aa08-default-rtdb.firebaseio.com",
+    "project_id": "mid-task-9aa08",
+    "storage_bucket": "mid-task-9aa08.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:285135557567:android:87575b13e9928ad9cec70a",
+        "mobilesdk_app_id": "1:501537938207:android:72e9cdc6493603e137ee2a",
         "android_client_info": {
-          "package_name": "com.fuais.janaproject"
+          "package_name": "com.mid.task"
         }
       },
       "oauth_client": [
         {
-          "client_id": "285135557567-jhphip3fhoa6elma9j6bhfvv44a1cad2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.fuais.janaproject",
-            "certificate_hash": "eb882a655ce37dff3f7ee8d96917332895293a94"
-          }
-        },
-        {
-          "client_id": "285135557567-bgfsh3o55ncrrq183oo2a7eon7m00uv9.apps.googleusercontent.com",
+          "client_id": "501537938207-q93o94in3lcm49me68dkibt0id4foi4g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA21QXWgdzO2omnzctQwRRrZpTKHTSezyo"
+          "current_key": "AIzaSyAKcwe23VMu_7x-jkn4TAxmiC2YfyDYbP4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "285135557567-bgfsh3o55ncrrq183oo2a7eon7m00uv9.apps.googleusercontent.com",
+              "client_id": "501537938207-q93o94in3lcm49me68dkibt0id4foi4g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

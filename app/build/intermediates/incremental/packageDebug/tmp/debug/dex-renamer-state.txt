@@ -1,10 +1,10 @@
-#Sun Jan 12 14:03:08 EET 2020
+#Sat Dec 25 12:36:16 EET 2021
+base.2=E\:\\Flutter Projects\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
 path.2=classes2.dex
+base.1=E\:\\Flutter Projects\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
-path.0=classes.dex
+base.0=E\:\\Flutter Projects\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\FuAIS 3\\Desktop\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
-base.1=C\:\\Users\\FuAIS 3\\Desktop\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-base.0=C\:\\Users\\FuAIS 3\\Desktop\\janaproject\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.0=classes.dex
